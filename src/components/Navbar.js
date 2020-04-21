@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../logo.svg';
 import styled from 'stlyed-components';
+import Button from './components/Button';
 
 export default class Navbar extends Component {
 	render(){
