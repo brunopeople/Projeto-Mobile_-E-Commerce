@@ -4,7 +4,7 @@ export default class Details extends Component
 {
 	render(){
 		return(
-			<div>Bem Vindo a Pagina de Detalhes</div>
+			<div></div>
 		)
 	}
 }
