@@ -1,10 +1,8 @@
-
-import styled from "styled-components";
+import React, { Component } from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { Component } from "react";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+
+
 
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
