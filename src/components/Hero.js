@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import mainBcg from "../images/mainBcg.jpeg";
 
-export default funcion Hero({img, title, max, children}) {
+export default function Hero({ img, title, max, children }) {
 	return(
 		<HeroWrapper max={max} img={img}>
 		  <div className="banner">

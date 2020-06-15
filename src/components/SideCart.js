@@ -8,9 +8,9 @@ export default function SideCart(){
 			 const {cartOpen, closeCart, cart} = value;
 			 return(
 				<CartWrapper show={cartOpen} onClick={closeCart}>
-					<p>Cart Items</p>
+					<p>Itens no Carrinho</p>
 				</CartWrapper>
-				);
+			  );
 			}}
 		</ProductConsumer>
 	);
